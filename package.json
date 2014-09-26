@@ -1,0 +1,23 @@
+{
+  "name": "sailor-docs",
+  "version": "0.0.1",
+  "description": "All you need to know about SailorJS",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/sailorjs/sailor-docs.git"
+  },
+  "keywords": [
+    "sailor",
+    "documentation"
+  ],
+  "author": {
+    "name": "Kiko Beats",
+    "email": "josefrancisco.verdu@gmail.com",
+    "url": "https://github.com/Kikobeats"
+  },
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/sailorjs/sailor-docs/issues"
+  },
+  "homepage": "https://github.com/sailorjs/sailor-docs"
+}
