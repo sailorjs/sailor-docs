@@ -22,7 +22,7 @@ Algunas recursos interesantes sobre este aspecto son:
 
 Como hemos dicho, Sailor está basado en el núcleo de Sails. Por eso te estarás preguntando ahora mismo,.. ¿Qué hace exactamente Sailor?
 
-* Sails es un framework multipropósito. Con **SailorJS** nos centraremos sólo en el backend, por lo que tendrás que utilizar un framework para el frontend de tu aplicación (AngularJS, EmberJS, Backbone, Atoms,...) y conectarlo con la librería **sailor-client**.
+* Sails es un framework multipropósito. Con **SailorJS** nos centraremos más en el área de creación de API's. Puede servir vistas desde el servidor, pero no es lo recomendable. Lo ideal sería usar un framework para tu frontend (AngularJS, EmberJS, Backbone, Atoms,...) y conectarlo con la librería **sailor-client**.
 
 * **SailorJS** extiende Sails para soportar algunas otras cosas que Sails no soporta de serie, como el sistema de módulo o el sistema de traducción propio.
 

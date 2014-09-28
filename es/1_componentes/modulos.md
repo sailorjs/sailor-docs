@@ -67,6 +67,6 @@ Así, el sistema de **SailorJS** podrá reconocerlo y cargarlo a la hora de arra
 
 Análoga con la parte de **Componentes Internos del sistema** se proporcionan una serie de módulos que vienen por defecto y que podrás utilizar en tu desarrollo.
 
-Visita la sección XXXX.
+Visita la sección **Directorio de Módulos** en **Anexos** para obtener el listado.
 
 
