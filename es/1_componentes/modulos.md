@@ -54,8 +54,19 @@ Sabemos que realizar testing desde el lado del servidor puede volverse una tarea
 
 Por eso, desde **SailorJS** en el momento que generas tu proyecto base o módulo se te proporcionará todo el setup necesario para que puedas escribir tus tests antes que tú código.
 
+## Cómo cargar un módulo
+
+Para cargar un módulo tendrás que:
+
+* Instalarlo como dependencia en tu proyecto base.
+* Añadirlo al fichero `config/modules`.
+
+Así, el sistema de **SailorJS** podrá reconocerlo y cargarlo a la hora de arrancar tu servidor.
+
 ## Módulos por defecto
 
 Análoga con la parte de **Componentes Internos del sistema** se proporcionan una serie de módulos que vienen por defecto y que podrás utilizar en tu desarrollo.
 
 Visita la sección XXXX.
+
+

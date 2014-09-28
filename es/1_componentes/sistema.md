@@ -30,12 +30,6 @@ Puedes ver **SailorJS** como *high level* por encima de Sails, que define la man
 
 ## Componentes internos
 
-Además del núcleo de [Sails](http://sailorjs.org) el sistema proporciona algunas extensiones adicionales que debes tener en cuenta a la hora de desarrollar, pues no sólo forman parte de la **guía de estilo** para desarrollar módulos en Sailor, sino que te hará el proceso mucho más fácil:
+Además del núcleo de [Sails](http://sailorjs.org) el sistema proporciona algunas extensiones adicionales que debes tener en cuenta a la hora de desarrollar, pues no sólo forman parte de la **guía de estilo** para desarrollar módulos en Sailor, sino que te hará el proceso mucho más fácil.
 
-* **sailor-translate** proporciona multidioma para las respuestas del servidor.
-* **sailor-validator** valida parámetros en las solicitudes a tu servidor.
-* **sailor-errorify** la serialización de los mensajes para que estén bien formateado en el lado del cliente.
-
-Como ves, los tres módulos están altamente relacionados: usaremos errorify para serializar validaciones que se apoyará en translate para obtener los mensajes en diferentes idiomas.
-
-Cada componente interno tiene su análogo en un módulo para que puedas utilizarlo cómodamente. Te recomendamos visitar la sección **Módulos por defecto** y **Guía de Estilo** para tener más información.
+Te recomendamos visitar la sección **Componentes del núcleo**.
