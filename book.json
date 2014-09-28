@@ -1,1 +1,12 @@
-{}
+{
+  "title": "SailorJS, components in the backend",
+  "description": "All you need to know about SailorJS, components in the backend",
+  "links": {
+    "sidebar": {
+      "View in Github": "https://github.com/sailorjs/sailorjs"
+    }
+  },
+  "plugins": [
+    "anchors"
+  ]
+}
