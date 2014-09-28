@@ -1,11 +1,12 @@
 # CLI (Command Line Interface)
 
+## Propósito
+
 Es la línea de comandos de Sailor que interactúa directamente con el usuario. A través del CLI podrás:
 
 * Crear la estructura base para tus proyectos.
 * Crear la estructur apara desarrollar un nuevo módulo.
 * Arrancar el servidor, tanto para entornos de pruebas como para producción.
-*
 
 ## Instalación
 
@@ -45,31 +46,68 @@ Si tienes duda sobre algún comando utiliza el parámetro `--help`.
 
 ![](../img/new1.png)
 
-Cuando creas un nuevo proyecto, éste tiene algunas dependencias del sistema **SailorJS** que son instalas automáticamente.
+Éste comando generará el scaffolding necesario para que puedas desarrollar un nuevo proyecto.
 
-Nota que si proporcionas bien los parámetros como `description`, `organization` y `repository` automáticamente se crearán tu fichero `package.json` y `README.md` para enlazar con los comandos proporcionados.
-
-La mayor parte de las dependencias son para preparar tu entorno de testing, del que hablaremos más adelante.
+El comando admite algunos parámetros para que automáticamente enlace con tu cuenta de Github y genere los ficheros `package.json` y `README.md` asociados a la información proporcionada, como **descripción**, **organización** y **repositorio**.
 
 ![](../img/new2.png)
+
+Si has desarrollado antes para **Sails** nota como el scaffolding generado es similar pero extendido:
+
+```
+.
+├── Gruntfile.js
+├── LICENSE.md
+├── README.md
+├── api
+├── app.js
+├── app.json
+├── assets
+├── config
+├── node_modules
+├── package.json
+├── tasks
+├── test
+├── translation
+└── views
+```
 
 ### Nuevo Módulo
 
 ![](../img/newmodule1.png)
 
-El proceso de creación de un módulo es similar al de un proyecto, excepto que las dependencias que necesita son muchas menos, pues está pensado para formar parte de un sistema mayor.
+El comando para generar un nuevo módulo es muy similar al de un proyecto base. Únicamente difiere en el scaffolding generado.
 
 ![](../img/newmodule2.png)
 
-Nuevamente la mayor parte de las dependencias generadas tienen que ver con la suite de testing.
+De nuevo nota que es posible proporcionar algunos parámetros para cumplimentar información relativa a los ficheros `package.json` y `README.md`.
 
+Si atendemos al scaffolding, veremos que las diferencias son mínimas.
+
+```
+.
+├── Gruntfile.coffee
+├── LICENSE.md
+├── README.md
+├── api
+├── config
+├── node_modules
+├── package.json
+├── tasks
+├── test
+└── translation
+```
 ### Ejecutar tu servidor
 
 ![](../img/lift1.png)
 
+El comando ´lift´ es heredado del CLI de Sails y sirve para poder correr nuestro servidor.
+
+Al hacerlo, cargará los módulos asociados al proyecto base. Más adelante explicaremos cómo hacer eso, pero por ahora tenemos que saber que tanto si vamos a desarrollar en local como en producción deberemos utilizarlo.
+
 ![](../img/lift2.png)
 
-Básicamente se proporcionan dos comandos útiles:
+Se proporcionan comandos útiles:
 
 * `--silly` imprime por pantalla todo el debug del sistema de bootstrapping y es útil a la hora de desarrollar.
 * `--production` prepara el entorno para ejecutarse en un sistema de producción final.
