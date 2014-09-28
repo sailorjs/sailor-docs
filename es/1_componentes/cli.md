@@ -101,7 +101,7 @@ Si atendemos al scaffolding, veremos que las diferencias son mínimas.
 
 ![](../img/lift1.png)
 
-El comando ´lift´ es heredado del CLI de Sails y sirve para poder correr nuestro servidor.
+El comando `lift` es heredado del CLI de Sails y sirve para poder correr nuestro servidor.
 
 Al hacerlo, cargará los módulos asociados al proyecto base. Más adelante explicaremos cómo hacer eso, pero por ahora tenemos que saber que tanto si vamos a desarrollar en local como en producción deberemos utilizarlo.
 
