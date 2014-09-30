@@ -1,4 +1,3 @@
-# My Book
+# Sailor Documentation
 
-Welcome in my book!
 
