@@ -19,9 +19,5 @@
   "bugs": {
     "url": "https://github.com/sailorjs/sailor-docs/issues"
   },
-  "homepage": "https://github.com/sailorjs/sailor-docs",
-  "dependencies": {
-    "gitbook-plugin-anchors": "^0.3.0",
-    "gitbook-plugin-ga": "^0.2.0"
-  }
+  "homepage": "https://github.com/sailorjs/sailor-docs"
 }
