@@ -21,6 +21,7 @@
   },
   "homepage": "https://github.com/sailorjs/sailor-docs",
   "dependencies": {
-    "gitbook-plugin-anchors": "*"
+    "gitbook-plugin-anchors": "*",
+    "gitbook-plugin-ga": "*"
   }
 }
