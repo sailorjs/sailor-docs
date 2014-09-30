@@ -1,4 +1,6 @@
-# Ajusta los módulos
+# Guía de estilo
+
+## Ajusta los módulos
 
 Como comentamos secciones atrás, a veces necesitas modificar un fichero de un módulo para que funcione correctamente en tu aplicación y debes realizar este proceso con el **mecanismo de precedencia** de **SailorJS**. Para ello deberás usar el **mecanismo de precedencia:**
 

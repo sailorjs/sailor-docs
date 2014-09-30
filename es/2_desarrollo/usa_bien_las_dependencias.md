@@ -1,4 +1,6 @@
-# Usa bien las dependencias
+# Guía de estilo
+
+### Usa bien las dependencias
 
 Si tu módulo tiene dependencias externas deberás declararlas de manera correcta en `package.json`. Recuerda que:
 

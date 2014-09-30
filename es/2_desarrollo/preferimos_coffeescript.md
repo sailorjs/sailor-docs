@@ -1,4 +1,6 @@
-# Preferimos CoffeeScript
+# Guía de estilo
+
+## Preferimos CoffeeScript
 
 Aunque JavaScript es igual de válido, preferimos utilizar a CoffeeScript ya que es más legible, más fácil de mantener y más rápido para desarrollar.
 

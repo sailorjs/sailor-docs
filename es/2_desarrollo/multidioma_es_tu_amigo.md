@@ -1,4 +1,6 @@
-# Multidioma es tu amigo
+# Guía de estilo
+
+## Multidioma es tu amigo
 
 **sailor-translator** se usa de manera global en el sistema.
 Puedes usarlo tanto en tun proyecto base como en un módulo.

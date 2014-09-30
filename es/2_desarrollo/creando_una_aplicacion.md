@@ -1,1 +1,0 @@
-# Creando una aplicación

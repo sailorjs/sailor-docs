@@ -1,4 +1,6 @@
-# No encapsules lo que no usas
+# Guía de estilo
+
+## No encapsules lo que no usas
 
 Cuando generamos un scaffolding para un nuevo módulo se crea el scaffold con todas las posibilidades de extensión existentes: *adapters*, *api*, *config*, *translations*, *views*...
 

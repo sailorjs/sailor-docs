@@ -1,4 +1,6 @@
-# Componentes del núcleo
+# Anexos
+
+## Componentes del núcleo
 
 - [sailor-scripts](https://github.com/sailorjs/sailor-scripts)
 
