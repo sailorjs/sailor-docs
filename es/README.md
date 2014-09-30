@@ -1,4 +1,6 @@
-![](img/logo.png)
+<br><br><br>
+<center>![](img/logo.png)</center>
+<br><br><br>
 
 # Introducción
 

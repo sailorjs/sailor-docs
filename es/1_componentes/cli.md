@@ -50,7 +50,7 @@ Si tienes duda sobre algún comando utiliza el parámetro `--help`.
 
 Si has desarrollado antes para **Sails** nota como el scaffolding generado es similar pero extendido:
 
-```
+```bash
 .
 ├── Gruntfile.js
 ├── LICENSE.md
@@ -81,7 +81,7 @@ El comando para generar un nuevo módulo es muy similar al de un proyecto base. 
 
 Si atendemos al scaffolding, veremos que la diferencia es mínima:
 
-```
+```bash
 .
 ├── Gruntfile.coffee
 ├── LICENSE.md

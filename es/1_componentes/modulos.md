@@ -36,9 +36,9 @@ Para hacer visible dicha relación tendremos que añadir al modelo *User* una *F
 
 Si hicieramos dicha acción romperíamos el esquema de los módulos. Es más, cuando el módulo se actualizase de forma independentiente a nuestra aplicación, perderíamos toda modificación que hayamos hecho sobre el módulo. Definitivamente no podemos hacer eso, pero entonces, ¿Cuál es la solución?
 
-En **SailorJS** se utiliza un mecanismo de precedencia. Puesto que el scaffolding básico de un proyecto base y un módulo no difere, si declaremos el fichero que queremos sobreescribir en la base de nuestro proyecto éste tendrá más preferencia y por lo tanto será cargado por el sistema en vez de utilizar la versión del módulo.
+En **SailorJS** se utiliza un **mecanismo de precedencia**. Puesto que el scaffolding básico de un proyecto base y un módulo no difere, si declaremos el fichero que queremos sobreescribir en la base de nuestro proyecto éste tendrá más preferencia y por lo tanto será cargado por el sistema en vez de utilizar la versión del módulo.
 
-Te recomendamos leer la sección **XXXX** en **Guía de Estilo**.
+Te recomendamos leer la sección **Ajusta los módulos** en **Guía de Estilo**.
 
 ### Small
 

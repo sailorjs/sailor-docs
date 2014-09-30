@@ -30,6 +30,6 @@ Puedes ver **SailorJS** como *high level* por encima de Sails, que define la man
 
 ## Componentes internos
 
-Además del núcleo de [Sails](http://sailorjs.org) el sistema proporciona algunas extensiones adicionales que debes tener en cuenta a la hora de desarrollar, pues no sólo forman parte de la **guía de estilo** para desarrollar módulos en Sailor, sino que te hará el proceso mucho más fácil.
+Además del núcleo de [Sails](http://sailorjs.org) el sistema proporciona algunas extensiones adicionales que debes tener en cuenta a la hora de desarrollar, pues no sólo forman parte de la **Guía de estilo** para desarrollar módulos en Sailor, sino que te hará el proceso mucho más fácil, pues están pensados para tratar los problemas más habituales.
 
-Te recomendamos visitar la sección **Componentes del núcleo**.
+Te recomendamos visitar la sección **Componentes del núcleo** en **Anexos**.

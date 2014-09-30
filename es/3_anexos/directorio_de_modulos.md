@@ -15,6 +15,10 @@ Define de manera cómoda las respuestas que podemos usar en nuestra aplicación.
 
 Interfaz para validar tipos de datos y condiciones en las peticiones entrantes.
 
+- [sailor-module-blueprints](https://github.com/sailorjs/sailor-module-blueprints) (*default*)
+
+Define los métodos CRUD para cualquier modelo creado en el proyecto.
+
 - [sailor-module-jsonwebtoken](https://github.com/sailorjs/sailor-module-jsonwebtoken)
 
 Soporte para jsonwebtoken. Codificación y descodificación para intercambio de información de manera segura entre cliente y servidor.
