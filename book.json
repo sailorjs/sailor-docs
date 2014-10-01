@@ -7,6 +7,12 @@
     }
   },
   "plugins": [
-    "anchors"
-  ]
+    "anchors",
+    "ga"
+  ],
+  "pluginsConfig": {
+    "ga": {
+      "token": "UA-54647908-2"
+    }
+  }
 }
