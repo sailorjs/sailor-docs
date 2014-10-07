@@ -6,7 +6,7 @@ Puesto que el diseño de los módulos lo haremos basándonos en el diseño de AP
 
 Algunas de las pautas básicas que todos los módulos deben soportar son:
 
-* Utilizamos la *feature* principal que queremos soportar con nuestro módulo como punto de partida de la API. Si, por ejemplo, estamos desarrollando un módulo de usuarios, el punto de partida será `http://host:port/**user**`.
+* Utilizamos la *feature* principal que queremos soportar con nuestro módulo como punto de partida de la API. Si, por ejemplo, estamos desarrollando un módulo de usuarios, el punto de partida será `http://host:port/**user**`. Por convenio utiliza siempre un sustantivo en **forma singular**.
 
 * Siempre que necesitemos discriminar un recurso de la API lo haremos usando su **identificador único** a través de un parámetro en la URL. Es decir, si necesitamos recuperar un determinado usuario, haremos la consulta con la forma:
 
