@@ -14,6 +14,7 @@
    * [No encapsules no lo que usas](2_desarrollo/no_encapsules_no_lo_que_usas.md)
    * [Multidioma es tu amigo](2_desarrollo/multidioma_es_tu_amigo.md)
    * [Ajusta los módulos](2_desarrollo/ajusta_los_modulos.md)
+   * [Cuida el esquema de tu API](2_desarrollo/cuida_el_esquema_de_tu_api.md)
    * [Usa bien las dependencias](2_desarrollo/usa_bien_las_dependencias.md)
    * [Testing, testing everywhere](2_desarrollo/testing,_testing_everywhere.md)
 * [Anexos](3_anexos/README.md)
