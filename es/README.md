@@ -1,5 +1,5 @@
 <br><br><br>
-<center>![](img/logo.png)</center>
+<center>![](http://i.imgur.com/1nenTIO.png)</center>
 <br><br><br>
 
 # Introducción
