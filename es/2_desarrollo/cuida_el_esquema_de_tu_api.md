@@ -2,7 +2,7 @@
 
 ## Cuida el esquema de tu API
 
-Puesto que el diseño de los módulos lo haremos basándonos en el diseño de API's REST ([Representational State Transfer](https://es.wikipedia.org/wiki/Representational_State_Transfer)) deberás comprender y interiorizar cómo funciona REST y cual deebe ser el patrón de acceso, utilizar correctamenter los verbos, ...
+Puesto que el diseño de los módulos lo haremos basándonos en el diseño de API's REST ([Representational State Transfer](https://es.wikipedia.org/wiki/Representational_State_Transfer)) deberás comprender e interiorizar cómo funciona REST y cual debe ser el patrón de acceso, utilizar correctamente los verbos, ...
 
 Algunas de las pautas básicas que todos los módulos deben soportar son:
 
@@ -22,7 +22,7 @@ POST http://host:port/user/5/following
 
 * Intenta ajustar el tipo de información que devuelve cada una de las respuestas.
 
-Por ejemplo, imagina que queremos recuperar la información de un usuario, pero, eso no significa que queramos explcítamente toda la información, sino un resumen de ésta:
+Por ejemplo, imagina que queremos recuperar la información de un usuario, pero, eso no significa que queramos explíctamente toda la información, sino un resumen de ésta:
 
 ```
 GET http://host:port/user/3
@@ -43,7 +43,7 @@ que retorna:
 }
 ```
 
-Nota cómo se han omitido la lista de usuarios a los que seguimos (`following`) y se ha sustituido por el número de usuarios totales. Por otro lado, tendremos un path exclusivo de nuestra API para recuperar los usuarios de ésta lista:
+Nota cómo se ha omitido la lista de usuarios a los que seguimos (`following`) y se ha sustituido por el número de usuarios totales. Por otro lado, tendremos un path exclusivo de nuestra API para recuperar los usuarios de ésta lista:
 
 ```
 GET http://host:port/user/3/following
@@ -91,7 +91,7 @@ Desde `sailor-module-response` se te proporcionan los shorcuts de respuesta más
 ...
 ```
 
-Siguiendo estas pautas el acceso se hará de una forma común. Escribir una pequeña documentación asociada al módulo también es un muy importante para que la comunidad entienda cómo utilizarlo (La mejor documentación son los tests).
+Siguiendo estas pautas el acceso se hará de una forma común. Escribir una pequeña documentación asociada al módulo también es un paso muy importante para que la comunidad entienda cómo utilizarlo (La mejor documentación son los tests).
 
 Si necesitas respuestas más concretas o quieres ampliar tu conocimiento en la materia te recomendamos visitar la web [httpstatus.es](http://httpstatus.es/).
 
