@@ -11,7 +11,7 @@
    * [Módulos](1_componentes/modulos.md)
 * [Guía de estilo](2_desarrollo/README.md)
    * [Preferimos CoffeeScript](2_desarrollo/preferimos_coffeescript.md)
-   * [No encapsules no lo que usas](2_desarrollo/no_encapsules_no_lo_que_usas.md)
+   * [No encapsules no lo que usas](2_desarrollo/no_encapsules_lo_que_no_usas.md)
    * [Multidioma es tu amigo](2_desarrollo/multidioma_es_tu_amigo.md)
    * [Ajusta los módulos](2_desarrollo/ajusta_los_modulos.md)
    * [Cuida el esquema de tu API](2_desarrollo/cuida_el_esquema_de_tu_api.md)
