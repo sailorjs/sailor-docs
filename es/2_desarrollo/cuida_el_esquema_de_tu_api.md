@@ -80,6 +80,7 @@ que retorna:
   + **4xx** Son para expresar errores en el cliente.
   + **5xx** Son para expresar errores en el servidor.
 
+Para saber cuándo debes utilizar cada una de éstas respuestas te recomendamos ver la [tabla resumen de REST API Tutorial](http://www.restapitutorial.com/lessons/httpmethods.html).
 
 Desde `sailor-module-response` se te proporcionan los shorcuts de respuesta más comúnes, como:
 

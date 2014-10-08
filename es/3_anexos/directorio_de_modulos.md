@@ -35,6 +35,10 @@ Soporte de programador de tareas al estilo UNIX para ser utilizado de manera int
 
 Modelo User para cualquier tipo de aplicación. Soporte para hacer login con diferentes estrategias (local, Github, Facebook, Twitter, etc).
 
+- [sailor-module-group](https://github.com/sailorjs/sailor-group)
+
+Permite gestionar grupos de usuarios. Creación de grupos privados o públicos, búsquedas por tags, lista asociada de invitaciones,...
+
 #### API's
 
 - [sailor-module-lastfm](https://github.com/sailorjs/sailor-module-lastfm)
