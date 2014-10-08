@@ -2,7 +2,9 @@
 
 ## Cuida el esquema de tu API
 
-Puesto que el diseño de los módulos lo haremos basándonos en el diseño de API's REST ([Representational State Transfer](https://es.wikipedia.org/wiki/Representational_State_Transfer)) deberás comprender e interiorizar cómo funciona REST y cual debe ser el patrón de acceso, utilizar correctamente los verbos, ...
+Puesto que el diseño de los módulos lo haremos basándonos en el diseño de API's RESTful deberás comprender e interiorizar cómo funciona REST y cual debe ser el patrón de acceso, utilizar correctamente los verbos, ...
+
+Si quieres aprender más sobre cómo crear API's RESTful en NodeJS te recomendamos el siguiente recurso de [Node.js Madrid Meetup (sólo español)](http://files.meetup.com/9727852/Desarrollo%20de%20APIs%20RESTful%20con%20NodeJS.pdf).
 
 Algunas de las pautas básicas que todos los módulos deben soportar son:
 
