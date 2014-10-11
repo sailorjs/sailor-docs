@@ -8,7 +8,7 @@
 
 Piensa en lo siguiente: cuando estás construyendo en el lado del *backend*, tu infraestructura tiende a crecer muy rápidamente y muchas veces de manera descontrolada para soportar nuevas *features*. Si no sigues una serie de principios y estableces un cierto orden, al final tienes una marañana de código relacionado todo entre sí, de manera que es muy incómodo hacer cualquier cambio, por mínimo que sea.
 
-Por otro lado, un desarrollador suele estar inmerso en diferentes proyectos y en todos ellos hay factores en común: cosas que has hecho antes en otros proyectos y que podrías reutilizar y ahorrar una cantidad de tiempo importante.
+Por otro lado, un desarrollador suele estar inmerso en diferentes proyectos y en todos ellos hay factores en común: lógica de negocio que has hecho de manera similar en otros proyectos y que podrías reutilizar y ahorrar una cantidad de tiempo importante.
 
 El propósito de **SailorJS** es hacernos mejores desarrolladores: No creemos en sistemas monolíticos llenos de depedencias y difícil de editar, ni tampoco en que *copiar y pegar* código sea una solución válida. Algo estamos haciendo mal. Algo debe de cambiar.
 

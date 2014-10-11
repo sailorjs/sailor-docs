@@ -6,6 +6,7 @@
        * [Comandos Principales](1_componentes/comandos_principales.md)
            * [Nuevo Proyecto Base](1_componentes/nuevo_proyecto.md)
            * [Nuevo Módulo](1_componentes/nuevo_modulo.md)
+           * [Instalar un Módulo](1_componentes/instalar_un_modulo.md)
            * [Ejecutar Servidor](1_componentes/ejecutar_servidor.md)
    * [Sistema](1_componentes/sistema.md)
    * [Módulos](1_componentes/modulos.md)
