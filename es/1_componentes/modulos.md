@@ -4,9 +4,13 @@ El sistema de módulos de **SailorJS** nos permite hacer nuestro código más fl
 
 ## FIRST
 
-A la hora de diseñar el sistema de módulos nos inspiramos en otros sistemas de componentes como [Polymer](https://www.polymer-project.org/) o [bower](http://bower.io/) y nos dimos cuenta que cada uno de los módulos en los que vamos a dividir nuestra aplicación deben cumplir una serie de características muy específicas para que el sistema pudiese tratarlos correctamente.
+**SailorJS** está inspirado en otros sistemas de componentes como [Polymer](https://www.polymer-project.org) o [Bower](http://bower.io). Para que un sistema de componentes tengan sentido, éstos deben cumplir una serie de características.
 
-Esas características se conocen como [FIRST](http://addyosmani.com/first/) y debes tenerlas muy presentes a la hora de desarrollar tus módulos para que el resto de la comunidad pueda usarlos.
+El sistema de componentes es una serie de pautas y reglas que deben seguir aquellas partes de código que queremos encapsular. Si nuestro código no las cumple, seguramente podrá ser igualmente ejecutado, pero perderemos el foco de por qué estamos haciéndolo.
+
+Las características que deben cumplir todo los componentes se resumen en la palabra [FIRST](http://addyosmani.com/first). Debes interiorizarlas y tenerlas muy presenter a la hora de desarrollar, pues condicionarán la manera en la que escribes código para el sistema.
+
+Las ventajas de utilizar un sistema de encapsulación de éste tipo son claras: tú código será programado una vez y ejecutado miles de veces por cierton de personas.
 
 ### Focused
 
@@ -60,6 +64,8 @@ Para cargar un módulo tendrás que:
 * Añadirlo al fichero `config/modules`.
 
 Así, el sistema de **SailorJS** podrá reconocerlo y cargarlo a la hora de arrancar tu servidor.
+
+Si has leído la sección **CLI** podrás verificar que es lo mismo que ocurre cuando ejecutas el comando `install`.
 
 ## Módulos por defecto
 
