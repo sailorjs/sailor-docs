@@ -21,7 +21,7 @@ Interfaz para validar tipos de datos y condiciones en las peticiones entrantes.
 
 Define los métodos CRUD para cualquier modelo creado en el proyecto.
 
-- [sailor-module-jsonwebtoken](https://github.com/sailorjs/sailor-module-jsonwebtoken)
+- [sailor-module-jwt](https://github.com/sailorjs/sailor-module-jsonwebtoken)
 
 Soporte para jsonwebtoken. Codificación y descodificación para intercambio de información de manera segura entre cliente y servidor.
 
@@ -33,11 +33,16 @@ Soporte de programador de tareas al estilo UNIX para ser utilizado de manera int
 
 - [sailor-module-user](https://github.com/sailorjs/sailor-module-user)
 
-Modelo User para cualquier tipo de aplicación. Soporte para hacer login con diferentes estrategias (local, Github, Facebook, Twitter, etc).
+
+Modelo User para cualquier tipo de aplicación. Soporte para hacer login con diferentes estrategias (OAuth, OAuth2, local,...) y servicios (Github, Facebook, Twitter, etc).
 
 - [sailor-module-group](https://github.com/sailorjs/sailor-group)
 
 Permite gestionar grupos de usuarios. Creación de grupos privados o públicos, búsquedas por tags, lista asociada de invitaciones,...
+
+- [sailor-module-message](https://github.com/sailorjs/sailor-module-message)
+
+Añade soporte de mensajería entre los usuarios del sistema.anexos
 
 #### API's
 
