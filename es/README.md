@@ -4,7 +4,7 @@
 
 # Introducción
 
-**SailorJS** nace con el propósito de proporcionar una manera cómoda de modularizar tú código y que puedas desarrollar proyectos reutilizando lo máximo posible.
+**SailorJS** nace con el propósito de proporcionar una manera cómoda de **desacoplar** y **modularizar** tú código, de manera que puedas desarrollar proyectos reutilizando lo máximo posible.
 
 Piensa en lo siguiente: cuando estás construyendo en el lado del *backend*, tu infraestructura tiende a crecer muy rápidamente y muchas veces de manera descontrolada para soportar nuevas *features*. Si no sigues una serie de principios y estableces un cierto orden, al final tienes una marañana de código relacionado todo entre sí, de manera que es muy incómodo hacer cualquier cambio, por mínimo que sea.
 
