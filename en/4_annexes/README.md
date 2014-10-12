@@ -1,7 +1,7 @@
-# Anexos
+# Annexes
 
-Hemos dividido los anexos en tres secciones:
+We have divided the annexes in 3 sections:
 
-* **Componentes del núcleo**, donde se enumeran las distinas partes en las que está dividido el sistema.
-* **Directorio de Módulos** disponible para utilizar en tu proyecto.
-* **Recursos** es una sección donde recopilamos otra información relevante.
+* **Core components**, where you can find the different component that is the system divided.
+* **Modules directory**, a list with all modules that you can use at this moment in your projects.
+* **Resources**, where we collected other useful information that can be relevant.
