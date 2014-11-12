@@ -14,3 +14,5 @@ Un ejemplo de funcionamiento sería el siguiente:
 2. Crea el mismo fichero con el mismo *path* relativo en tu proyecto base. Es decir, crearemos el fichero *baseProject/api/models/User.coffee*.
 
 Ahora el fichero *User* de tu proyecto base tendrá más precedencia que el fichero del módulo y por tanto será utilizado por el sistema.
+
+El sistema de precedencia funciona de manera similar a la herencia en objetos, es decir, podemos tanto **redefinir** como **extender**.
